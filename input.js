@@ -26,6 +26,15 @@ const handleUserInput = function (key) {
   if(key === "d") {
     connection.write("Move: right");
   }
+  if(key === "r") {
+    connection.write("Say: Nom Nom Nom");
+  }
+  if(key === "t") {
+    connection.write("Say: I hope it's gluten free");
+  }
+  if(key === "y") {
+    connection.write("Say: Bye, love you!");
+  }
 };
 
 module.exports = {
